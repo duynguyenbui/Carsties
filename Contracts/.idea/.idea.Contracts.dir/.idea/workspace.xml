@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1a72887-73e2-48ce-96fb-37654996c0d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Contracts.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Contracts.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contracts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuctionService/AuctionService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AuctionService/AuctionService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuctionService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AuctionService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Carsties.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Carsties.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchService/SearchService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchService/SearchService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VBQcSr4F2hEqFHO3aXRagQTa9U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.environmentSetup",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1a72887-73e2-48ce-96fb-37654996c0d3" name="Changes" comment="" />
+      <created>1694307072772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694307072772</updated>
+      <workItem from="1694307076780" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

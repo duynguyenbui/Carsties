@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "AuctionService\AuctionService.csproj", "{EEECD0ED-183C-483C-9D11-DAD69709CFC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{476FA718-AAC5-420D-86B1-F048059967FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{1FD2E140-C9CF-4AD6-96DF-F2909503ED41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService", "IdentityService\IdentityService.csproj", "{F9ECF6C6-E912-42BD-8384-9D369A13BE39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,13 @@ Global
 		{476FA718-AAC5-420D-86B1-F048059967FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{476FA718-AAC5-420D-86B1-F048059967FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{476FA718-AAC5-420D-86B1-F048059967FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD2E140-C9CF-4AD6-96DF-F2909503ED41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD2E140-C9CF-4AD6-96DF-F2909503ED41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD2E140-C9CF-4AD6-96DF-F2909503ED41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD2E140-C9CF-4AD6-96DF-F2909503ED41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9ECF6C6-E912-42BD-8384-9D369A13BE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9ECF6C6-E912-42BD-8384-9D369A13BE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9ECF6C6-E912-42BD-8384-9D369A13BE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9ECF6C6-E912-42BD-8384-9D369A13BE39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
