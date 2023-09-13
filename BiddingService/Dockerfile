@@ -3,7 +3,6 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 as build
 WORKDIR /app
 EXPOSE 80
 
-
 # Copy solution file and project files
 COPY Carsties.sln Carsties.sln
 COPY AuctionService/AuctionService.csproj AuctionService/AuctionService.csproj
@@ -13,14 +12,16 @@ COPY Contracts/Contracts.csproj Contracts/Contracts.csproj
 COPY IdentityService/IdentityService.csproj IdentityService/IdentityService.csproj
 COPY BiddingService/BiddingService.csproj BiddingService/BiddingService.csproj
 
+
 # Restore package dependencies
 RUN dotnet restore Carsties.sln
 
 # Copy the application source code
-COPY IdentityService/ IdentityService/
+COPY BiddingService/ BiddingService/
+COPY Contracts/ Contracts/
 
 # Build the application
-WORKDIR /app/IdentityService
+WORKDIR /app/BiddingService
 RUN dotnet publish -c Release -o /app/out
 
 # Stage 2: Create the runtime image
@@ -31,4 +32,4 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Specify the entry point command
-ENTRYPOINT [ "dotnet", "IdentityService.dll" ]
+ENTRYPOINT [ "dotnet", "BiddingService.dll" ]

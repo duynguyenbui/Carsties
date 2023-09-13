@@ -1,6 +1,8 @@
 # Stage 1: Build the application
 FROM mcr.microsoft.com/dotnet/sdk:7.0 as build
 WORKDIR /app
+EXPOSE 80
+
 
 # Copy solution file and project files
 COPY Carsties.sln Carsties.sln
@@ -9,6 +11,7 @@ COPY SearchService/SearchService.csproj SearchService/SearchService.csproj
 COPY GatewayService/GatewayService.csproj GatewayService/GatewayService.csproj
 COPY Contracts/Contracts.csproj Contracts/Contracts.csproj
 COPY IdentityService/IdentityService.csproj IdentityService/IdentityService.csproj
+COPY BiddingService/BiddingService.csproj BiddingService/BiddingService.csproj
 
 # Restore package dependencies
 RUN dotnet restore Carsties.sln

@@ -23,6 +23,7 @@ public class SearchController : ControllerBase
             "make" => query.Sort(x => x.Ascending(a => a.Make))
                 .Sort(x => x.Ascending(a => a.Model)),
             "new" => query.Sort(x => x.Descending(a => a.CreatedAt)),
+            
             _ => query.Sort(x => x.Ascending(a => a.AuctionEnd))
         };
 
