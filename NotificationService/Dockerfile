@@ -15,16 +15,15 @@ COPY BiddingService/BiddingService.csproj BiddingService/BiddingService.csproj
 COPY NotificationService/NotificationService.csproj NotificationService/NotificationService.csproj
 
 
-
 # Restore package dependencies
 RUN dotnet restore Carsties.sln
 
 # Copy the application source code
-COPY AuctionService/ AuctionService/
+COPY NotificationService/ NotificationService/
 COPY Contracts/ Contracts/
 
 # Build the application
-WORKDIR /app/AuctionService
+WORKDIR /app/NotificationService
 RUN dotnet publish -c Release -o /app/out
 
 # Stage 2: Create the runtime image
@@ -35,4 +34,4 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Specify the entry point command
-ENTRYPOINT [ "dotnet", "AuctionService.dll" ]
+ENTRYPOINT [ "dotnet", "NotificationService.dll" ]
