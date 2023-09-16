@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingService", "BiddingSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{D506B2F0-B90E-4E9D-AFAC-85097D2CF809}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService.UnitTests", "tests\AuctionService.UnitTests\AuctionService.UnitTests.csproj", "{B04CEBE4-213F-43A7-AA76-9021CEEBF740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService.IntegrationTests", "tests\AuctionService.IntegrationTests\AuctionService.IntegrationTests.csproj", "{F6A8222E-FD86-4F80-82AA-A6271DD35997}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +53,13 @@ Global
 		{D506B2F0-B90E-4E9D-AFAC-85097D2CF809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D506B2F0-B90E-4E9D-AFAC-85097D2CF809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D506B2F0-B90E-4E9D-AFAC-85097D2CF809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04CEBE4-213F-43A7-AA76-9021CEEBF740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04CEBE4-213F-43A7-AA76-9021CEEBF740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04CEBE4-213F-43A7-AA76-9021CEEBF740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04CEBE4-213F-43A7-AA76-9021CEEBF740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A8222E-FD86-4F80-82AA-A6271DD35997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A8222E-FD86-4F80-82AA-A6271DD35997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A8222E-FD86-4F80-82AA-A6271DD35997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A8222E-FD86-4F80-82AA-A6271DD35997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
